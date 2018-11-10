@@ -1,0 +1,226 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+body {
+    margin: 0;
+    font-family: Quicksand, Helvetica, sans-serif;
+    background: url(../images/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ }
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/med.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.logo{
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    font-weight: bold;
+    font-size:24px;
+}
+
+.logocolor1{
+ color:black;   
+}
+
+.logocolor2{
+ color:red;   
+}
+
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+     height:100vh;
+  }
+  .imgc{
+    width:100%;
+   height:90vh; 
+  }
+  
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;   /* hace que la capa sea opaca  */  /* Poneer el nav fijo y absoluto en la web */
+}
+
+nav ul{
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul{
+    background: #000;
+    height: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.menu ul li:hover{
+    background: maroon;
+    color:white;
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 10;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    text-decoration: none; 
+    color: white;
+    font-weight: 10;
+    font-size: 21px;
+}
+
+.datos{
+    display:none;
+}
+
+.iniciarsesion{
+    background:red;
+    color:#fff;
+    visibility:visible;
+}
+
+.cerrarsesion{
+    background:red;
+/*    visibility:hidden;*/
+    display:none;
+    color:#fff;
+}
+
+.menu-icon{
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 860px){
+    .logo{
+        position: fixed;
+        top:0;
+        margin-top:16px; 
+    }
+    .logocolor1{
+        color:#fff;   
+    }
+    
+    nav ul{
+        max-height: 0px;
+        background: #000;
+    }
+    
+    nav.black ul{
+        background: #000;
+    }
+    
+    .showing{
+        max-height: 20em; 
+    }
+    
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+        
+    }
+    .menu ul li a{
+        text-decoration: none; 
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .menu-icon{
+        display: block;
+    }
+}
+
+header h1{
+    font-size: 40px;
+    letter-spacing: 21px;
+    font-weight: 100;
+}
+
+header hr{
+    color:red;
+    border: .8px solid #0078ff;
+    border-radius: 850px;
+}
+
+header p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.info{
+    margin:2px 15px 2px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    vertical-align:inherit;
+}
+
+div img{
+    display:block;
+    margin:auto;
+}
+
+.who{
+   padding: 10px 40px;
+}
+
+div p{
+    text-align:center;
+    color:maroon;
+    font-size:16px;
+}
+
+.mcon{
+    background:url('../images/med.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+footer{
+    width:100%;
+    height:100px;
+    background:#EFDF;
+    text-align:center;
+}
+
+div a img{
+    display: none;
+    visibility: hidden;
+}

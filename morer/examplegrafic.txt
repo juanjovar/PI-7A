@@ -1,0 +1,68 @@
+<div class="row">
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p40 red">
+	                    <span>40%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">HTML</p>
+	            </div>
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p31 red">
+	                    <span>31%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">CSS</p>
+	            </div>
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p21 red">
+	                    <span>21%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">JavaScript</p>
+	            </div>
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p12 red">
+	                    <span>12%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">jQuery</p>
+	            </div>
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p5 red">
+	                    <span>5%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">Angular</p>
+	            </div>
+	            <div class="col-md-3 col-xs-6 skillbox">
+	                <div class="c100 p28 red">
+	                    <span>28%</span>
+	                    <div class="slice">
+	                        <div class="bar"></div>
+	                        <div class="fill"></div>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <p class="skill">PHP</p>
+	            </div>
+      	</div>
