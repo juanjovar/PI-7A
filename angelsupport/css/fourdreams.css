@@ -1,0 +1,51 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,900);
+
+.texto_bienvenida{
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+	font-size:30px;
+	}
+	
+.texto_bienvenida2{
+	font-family: 'Lato', sans-serif;
+	font-weight:900;
+	font-size:60px;
+	}
+	
+.texto_bienvenida3{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:60px;
+	}
+	
+
+
+#area_redes_sociales ul li{
+	display:inline;
+	padding-left:0px;
+	list-style:none;
+	
+	}
+	
+	
+	#area_redes_sociales{
+		margin-top:40px;
+		}
+		
+	#area_redes_sociales img{
+	 transition: all 0.5s ease-in-out;
+	}
+	
+	#area_redes_sociales img:hover{
+	  transform: translateY(-10px);
+	  transition: 0.5s;
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+	
+}
